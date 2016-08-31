@@ -15,9 +15,11 @@ OpenFL extension for "Google Play Games" on Android.
 
 ###Implementation
 
+```haxe
 <set name="googlePlayGameServices" if="android" />
 <haxelib name="google-play-services" if="android" />
 <haxelib name="extension-googleplaygames" if="android" />
+```
 
 ###Simple use Example
 
