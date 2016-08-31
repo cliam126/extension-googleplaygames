@@ -15,7 +15,7 @@ OpenFL extension for "Google Play Games" on Android.
 
 ###Implementation
 
-To work with <a href='https://github.com/player-03/google-play-services'>google-play-services</a> add this to project.xml:
+To reduce file size and avoid error [0xffff] install google play services with <a href='https://github.com/player-03/google-play-services'>this extension</a> and add this to project.xml:
 
 ```haxe
 <set name="googlePlayGameServices" if="android" />
