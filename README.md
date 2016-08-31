@@ -13,6 +13,12 @@ OpenFL extension for "Google Play Games" on Android.
 * Automatic conflict resolution (by keeping the newest version by default). You can change that by implementing the onCloudConflict method.
 * XML Parser to load the ID's from Google's XML resources file.
 
+###Implementation
+
+<set name="googlePlayGameServices" if="android" />
+<haxelib name="google-play-services" if="android" />
+<haxelib name="extension-googleplaygames" if="android" />
+
 ###Simple use Example
 
 ```haxe
